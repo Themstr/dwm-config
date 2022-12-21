@@ -8,11 +8,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[]       = "#1e1e2e";
-static const char col_gray2[]       = "#45475a";
-static const char col_gray3[]       = "#a6adc8";
-static const char col_gray4[]       = "#cdd6f4";
-static const char col_cyan[]        = "#eba0ac";
+static const char col_gray1[]       = "#1E1E1E";
+static const char col_gray2[]       = "#383838";
+static const char col_gray3[]       = "#EAEAEA";
+static const char col_gray4[]       = "#1E1E1E";
+static const char col_cyan[]        = "#4EC9B0";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { " A ", " R " , " C ", " H ", " L ", " I ", " N ", " U ", " X " };
+static const char *tags[] = { " 1 ", " 2 " , " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 " };
 
 static const Rule rules[] = {
 	/* xprop(1):
