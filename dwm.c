@@ -1301,7 +1301,7 @@ resizeclient(Client *c, int x, int y, int w, int h)
 	unsigned int gapincr;
 	Client *nbc;
 	wc.border_width = c->bw;
-	+
+
 	/* Get number of clients for the client's monitor */
 	for (n = 0, nbc = nexttiled(c->mon->clients); nbc; nbc = nexttiled(nbc->next), n++);
 
